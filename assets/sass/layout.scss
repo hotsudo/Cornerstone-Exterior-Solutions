@@ -38,7 +38,17 @@ header {
 
 		.container {
 			text-align: right;
+			padding-left: 47%;
+			box-sizing: border-box;
 		}
+
+		h1 {
+			font-size: 5.9rem;
+			line-height: 1.05;
+		}
+		///.container {
+		///	text-align: right;
+		///	}
 	}
 
 	nav {
