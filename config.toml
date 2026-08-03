@@ -19,6 +19,15 @@ enableRobotsTXT = true
 
 [params]
   backgroundImagePath = "/uploads/building.jpg"
+  headerImages = [
+    "/uploads/building.jpg",
+    "/images/Pacific_roof1.jpg",
+    "/images/Pacific_roof2.jpg",
+    "/images/Yutzy_plaza1.jpg",
+    "/images/Hershberger_Christmas.jpeg",
+    "/images/Jimmy_Christmas.jpg",
+    "/images/Thomas_Christmas_lights.jpg"
+  ]
   description = "Exterior remodeling and repair services for homeowners in the Kansas City area."
   images = ["siteicon.png"]
   title = "Cornerstone Exterior Solutions"

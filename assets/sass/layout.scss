@@ -17,23 +17,21 @@ body {
 }
 
 header {
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: calc(50% - 40px) 175px;
+	position: relative;
+	overflow: hidden;
 	height: 420px;
 	box-sizing: border-box;
+	background: #242a2e;
 
 	.container {
+		position: relative;
+		z-index: 2;
 		text-align: center;
 	}
 
 	@media (min-width: $mobile-break) {
-		background-size: contain;
-		background-position: calc(50% - 300px) calc(100% + 20px);
-
 		&.main-hero {
 			height: 80vh;
-			background-position: calc(50% - 350px) calc(100% + 20px);
 		}
 
 		.container {
@@ -67,6 +65,38 @@ header {
 	}
 }
 
+.header-slideshow,
+.header-slide {
+	position: absolute;
+	inset: 0;
+}
+
+.header-slideshow::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+	background: linear-gradient(180deg, rgba(15, 20, 23, 0.62) 0%, rgba(15, 20, 23, 0.25) 55%, rgba(15, 20, 23, 0.58) 100%);
+}
+
+.header-slide {
+	opacity: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: opacity 1.2s ease-in-out;
+}
+
+.header-slide.is-active {
+	opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.header-slide {
+		transition: none;
+	}
+}
+
 header,
 footer {
 	a {
@@ -76,6 +106,12 @@ footer {
 			border-bottom: 2px solid;
 		}
 	}
+}
+
+header a,
+header a:hover {
+	color: #fff;
+	text-shadow: 0 2px 12px rgba(0, 0, 0, 0.65);
 }
 
 header a.active {
