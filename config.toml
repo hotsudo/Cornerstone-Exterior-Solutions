@@ -1,10 +1,11 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
+baseURL = "https://cornerstoneexteriorsolutions.co/"
+locale = "en-US"
+title = "Cornerstone Exterior Solutions"
 summaryLength = 20
 disqusShortname = ""
 googleAnalytics = ""
-Paginate = 10
-PaginatePath = "/"
+pagination.pagerSize = 10
+pagination.path = "page"
 enableRobotsTXT = true
 
 [taxonomies]
@@ -18,9 +19,9 @@ enableRobotsTXT = true
 
 [params]
   backgroundImagePath = "/uploads/building.jpg"
-  description = "Hugo template with example content for a law firm."
+  description = "Exterior remodeling and repair services for homeowners in the Kansas City area."
   images = ["siteicon.png"]
-  title = "Justice Template"
+  title = "Cornerstone Exterior Solutions"
 
 [params._selectData]
   call_to_actions = ["Contact", "Blog", "Map"]

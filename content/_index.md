@@ -5,22 +5,26 @@ large_header: true
 menu:
   footer:
     weight: 1
-testimonials:
-  - message: We use Justice Law in all our endeavours. They offer an unparalleled service when it comes to running a business.
-    image: "https://placekitten.com/g/60/60?a=.png"
-    name: Joice Carmold
-  - message: Justice Law are the best of the best. Being local, they care about people and have strong ties to the community.
-    image: "https://www.fillmurray.com/60/60?a=.png"
-    name: Peter Rottenburg
-  - message: Justice Law were everything we could have hoped for when buying our first home. Highly recommended to all.
-    image: "https://placebear.com/60/60?a=.png"
-    name: D. and G. Gibbleston
-_options:
-  image:
-    width: 60
-    height: 60
 ---
 
-This is the *Justice* template from [CloudCannon](https://cloudcannon.com/). Justice is strong foundation for the web presence of a law firm or business. It's filled with fictitious example content to get you started.
+# Exterior solutions built around your home
 
-Justice Law is professional representation. Practicing for over 50 years, our team have the knowledge and skills to get you results.
+Cornerstone Exterior Solutions helps Kansas City-area homeowners protect, improve, and enjoy their properties. From repairs to complete exterior upgrades, we bring practical recommendations, attentive service, and quality workmanship to every project.
+
+### Roofing
+
+Roof repairs and replacement solutions designed to protect your home from the elements.
+
+### Siding
+
+Durable siding installation and replacement that improves curb appeal and performance.
+
+### Gutters
+
+Gutter solutions that move water away from your roof, siding, and foundation.
+
+### Windows and exterior improvements
+
+Thoughtful upgrades that improve comfort, efficiency, and the finished look of your home.
+
+[Explore our services](/services/) or [request a free estimate](/contact/).

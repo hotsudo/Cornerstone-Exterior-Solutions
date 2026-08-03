@@ -16,11 +16,12 @@
 				</ul>
 			{{ end }}
 
+			{{ with hugo.Data.company.social_links }}
 			<ul class="footer-links">
 				<li>
 					<h2>Social</h2>
 				</li>
-				{{ range $.Site.Data.company.social_links }}
+				{{ range hugo.Data.company.social_links }}
 					<li>
 						<a target="_blank" rel="noopener" href="{{ .link }}" class="{{ .name | urlize }}-icon">
 							{{ partial "social-icon.html" . }}
@@ -29,23 +30,23 @@
 					</li>
 				{{ end }}
 			</ul>
+			{{ end }}
 
 			<ul class="footer-links">
 				<li>
-					<h2>{{ $.Site.Data.company.title }}</h2>
+					<h2>{{ hugo.Data.company.title }}</h2>
 				</li>
-				<li>{{ $.Site.Data.company.description }}</li>
-				<li><a href="/blog/index.xml">{{ partial "social-icon.html" (dict "context" . "name" "RSS") }} Subscribe with RSS</a></li>
+				<li>{{ hugo.Data.company.description }}</li>
+				<li><a href="tel:+18168250512">{{ hugo.Data.company.phone }}</a></li>
+				<li><a href="mailto:{{ hugo.Data.company.contact_email_address }}">{{ hugo.Data.company.contact_email_address }}</a></li>
 			</ul>
 		</div>
 	</div>
 
 	<div class="legal-line">
 		<p class="container">
-			&copy; {{ now.Format "2006" }} {{ $.Site.Data.company.title }} &bull;
+			&copy; {{ now.Format "2006" }} {{ hugo.Data.company.title }} &bull;
 			<a href="/terms/">Terms</a>
-			&bull;
-			Template by <a href="https://cloudcannon.com/">CloudCannon</a>
 		</p>
 	</div>
 </footer>

@@ -1,71 +1,23 @@
-# Justice
+# Cornerstone Exterior Solutions
 
-> [!IMPORTANT]
-> This template is no longer actively maintained but remains available for reference and learning. For production sites, we recommend our [modern templates](https://cloudcannon.com/templates/).
+Hugo website for Cornerstone Exterior Solutions, configured for Hugo Extended 0.164.0 and Netlify.
 
-Law firm themed business template for Hugo. Browse through a [live demo](https://loved-wood.cloudvent.net/).
-Increase the web presence of a law firm or business with this configurable theme.
+## Local development
 
-![_screenshot](https://user-images.githubusercontent.com/25014150/149033805-1ecc5e9a-427f-40b7-87ba-ff9392183b8c.png)
+Run `hugo server` and open the local address shown by Hugo.
 
-Justice was made by [CloudCannon](https://cloudcannon.com/), a Jamstack platform for the whole team.
+## Production build
 
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/justice-hugo-template)
+Run `hugo --gc --minify`. The generated site is written to `public/`.
 
-## Features
+## Netlify
 
-* Contact form
-* Pre-built pages
-* Pre-styled components
-* Blog with pagination and category pages
-* Disqus comments for posts
-* Author system
-* Configurable footer
-* Optimised for editing in [CloudCannon](https://cloudcannon.com/)
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
+The repository includes `netlify.toml` with the production build command, publish directory, Hugo version, security headers, and contact-success redirect.
 
-## Setup
+The contact page uses Netlify Forms with a honeypot field. After the first deploy, confirm that the `contact` form appears in Netlify and add an email notification for `info@cornerstoneexteriorsolutions.co` under the site’s form notification settings.
 
-1. Add your site and author details in `config.toml`.
-2. Add your Google Analytics and Disqus keys to `config.toml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Hugo locally).
+## Site content
 
-## Develop
-
-Justice was built with [Hugo](https://gohugo.io/) version `0.80.0`, but should support newer versions as well.
-
-Run the standalone executable `hugo` to serve the site locally:
-
-~~~bash
-$ hugo server
-~~~
-
-## Editing
-
-Justice is set up for adding, updating and removing pages, authors, posts, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
-
-### Posts
-
-* Add, update or remove a post in the *posts* section.
-* The **author** field links to the **authors** data.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
-
-### Contact Form
-
-* Preconfigured to work with [CloudCannon](https://app.cloudcannon.com/), but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
-* Sends email to the address listed in company details.
-
-### Author
-
-* Reused around the site to save multiple editing locations.
-
-### Footer
-
-* Set how this displays with each page front matter in `menu.footer`.
-
-### Company details
-
-* Reused around the site to save multiple editing locations.
-* Set in the *Data* / *Company* section.
+- Company contact information is stored in `data/company.yml`.
+- Main page content is stored in `content/`.
+- Existing images are stored in `static/` and the root site icon remains in place.

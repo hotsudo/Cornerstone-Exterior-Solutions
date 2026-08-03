@@ -1,0 +1,10 @@
+<li class="post-summary">
+	<div class="post-summary-content">
+		<h3 class="post-summary-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+		<p class="post-summary-details">
+			{{ with .Date }}{{ .Format "January 2, 2006" }}{{ end }}
+			{{ range .Params.categories }} &bull; {{ . }}{{ end }}
+		</p>
+	</div>
+	<p class="post-summary-excerpt">{{ .Summary }}</p>
+</li>

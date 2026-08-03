@@ -1,7 +1,7 @@
 ---
 title: Contact Success
-call_to_action: Blog
+call_to_action: Contact
 large_header: false
 ---
 
-Thank you for reaching out, we'll read your message and be in contact as soon as possible.
+Thank you for contacting Cornerstone Exterior Solutions. Your message has been received, and we’ll be in touch as soon as possible.

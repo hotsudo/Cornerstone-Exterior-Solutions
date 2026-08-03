@@ -2,7 +2,7 @@
   <article class="content">
     <div>{{ .Content }}</div>
 
-    <p>You're currently looking at posts categorised under <strong>{{ .Title }}</strong>. <a href="/blog/">View all posts</a> instead.</p>
+    <p>You’re viewing articles in <strong>{{ .Title }}</strong>. <a href="/posts/">View all articles</a>.</p>
 
     <ol class="post-list">
       {{ range .Paginator.Pages }}
@@ -13,6 +13,5 @@
     {{ template "_internal/pagination.html" . }}
   </article>
 {{ end }}
-
 
 

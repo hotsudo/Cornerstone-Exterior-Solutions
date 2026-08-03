@@ -1,6 +1,6 @@
-name: Jane Doe
-description: Jane has 19 years of experience in law, and specialises in property and business.
-image: "https://placekitten.com/440/440?a=.png"
-credentials: LLB
-phone_extension: "02"
-is_staff_member: true
+name: Cornerstone Exterior Solutions
+description: Exterior improvement guidance from the Cornerstone Exterior Solutions team.
+image: "/siteicon.png"
+credentials:
+phone_extension:
+is_staff_member: false

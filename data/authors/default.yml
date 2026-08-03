@@ -1,6 +1,6 @@
-name: Unknown
-description: This is the default when no matching author is found.
-image: "https://placekitten.com/440/440?a=.png"
+name: Cornerstone Exterior Solutions
+description: Exterior improvement guidance from the Cornerstone Exterior Solutions team.
+image: "/siteicon.png"
 credentials:
 phone_extension:
 is_staff_member: false

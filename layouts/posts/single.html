@@ -3,12 +3,6 @@
 		{{ .Render "summary-details" }}
 		<div>{{ .Content }}</div>
 
-		{{ $author := index .Site.Data.authors (.Params.author | default "default") }}
-		{{- if $author -}}
-			<h2>Meet the author</h2>
-			<div class="post-author staff">{{ partial "staff-member.html" $author }}</div>
-		{{ end }}
-
 		<h2>Keep reading</h2>
 		<ol class="post-links post-list">
 			{{ with .NextInSection }}

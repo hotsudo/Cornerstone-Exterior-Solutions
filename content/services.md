@@ -9,24 +9,24 @@ menu:
     weight: 3
 ---
 
-Our specialised team has the skill and experience to provide a range of services. The utmost care is taken with all our work. The main streams of work we perform are as follows:
+Your home’s exterior works as a system. We help identify the right solution for the problem at hand and complete the work with long-term protection, performance, and curb appeal in mind.
 
-### Property
+### Roofing
 
-The first contact with law for many people is when buying a first home. We can assist you through this process, managing the details and offering advice. When or if the time comes, we'll also assist with selling your home.
+We provide roof evaluations, repairs, and replacement solutions for aging materials, storm damage, leaks, and other common roofing concerns.
 
-We have expertise in the consent process for new developments and improvements, as well as helping you manage assets through trusts.
+### Gutters
 
-![Property image](https://unsplash.it/960/350?image=946)
+Properly functioning gutters help prevent water damage. We install and replace gutter systems that direct water safely away from your home.
 
-### Employment
+### Christmas Lighting
 
-If you're looking to employ or be employed, we offer solid advice and assistance with creating and reading agreements. We have a proven track record handling disputes.
+We set up, take down, and store Christmas lighting and decor for anyone and everyone! Give us a call or email us this autumn to get a free quote to brighten your home or business this winter!
 
-![Employment image](https://unsplash.it/960/350?image=668)
+### Exterior repairs and improvements
 
-### Business
+Have a project that does not fit neatly into one category? Tell us what you are seeing. We can discuss the issue, determine whether it falls within our services, and recommend the next step.
 
-From structuring and mergers to shareholder agreements, we are here to assist you when starting, buying, running or selling your business.
+## Start with a free estimate
 
-![Business image](https://unsplash.it/960/350?image=376)
+Call [816-825-0512](tel:+18168250512), email [info@cornerstoneexteriorsolutions.co](mailto:info@cornerstoneexteriorsolutions.co), or [send us a message](/contact/).
