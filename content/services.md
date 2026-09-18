@@ -13,7 +13,7 @@ Your home or business’s exterior works as a system. We help identify the right
 
 ### Roofing
 
-We provide roof evaluations, repairs, and replacement solutions for aging materials, storm damage, leaks, and other common roofing concerns. (Roof evaluations are free and have no obligation attached.)
+We provide roof inspections, repairs, and replacement solutions for aging materials, storm damage, leaks, and other common roofing concerns. (Roof evaluations are free and have no obligation attached.)
 
 ### Gutters and Leaf Removal
 
@@ -31,4 +31,4 @@ Have a project that does not fit neatly into one category? Tell us what you are 
 
 ## Start with a free estimate
 
-Call [816-825-0512](tel:+18168250512), email [info@cornerstoneexteriorsolutions.co](mailto:info@cornerstoneexteriorsolutions.co), or [send us a message](/contact/).
+Call [573-230-2241](tel:+15732302241), email [info@cornerstoneexteriorsolutions.co](mailto:info@cornerstoneexteriorsolutions.co), or [send us a message](/contact/).
