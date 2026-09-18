@@ -16,7 +16,7 @@
 
 
 		{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
-			{{ if .Site.DisqusShortname }}
+			{{ if .Site.Config.Services.Disqus.Shortname }}
 				<h2>Have your say</h2>
 				{{ partial "disqus.html" . }}
 			{{ end }}
