@@ -26,7 +26,7 @@
 					<input id="email_address" type="email" name="email" autocomplete="email" inputmode="email" required>
 
 					<label for="phone">Phone Number</label>
-					<input id="phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" pattern="(?:\+?1[ .-]?)?(?:\([2-9][0-9]{2}\)|[2-9][0-9]{2})[ .-]?[0-9]{3}[ .-]?[0-9]{4}" title="Enter a valid 10-digit U.S. phone number, such as 573-230-2241." required>
+					<input id="phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" pattern="(?:\+?1[ .-]?)?(?:\([2-9][0-9]{2}\)|[2-9][0-9]{2})[ .-]?[0-9]{3}[ .-]?[0-9]{4}" title="Enter a valid 10-digit U.S. phone number, such as 573-230-2241." required="required" aria-required="true">
 
 					<label for="project_type">Project Type</label>
 					<select id="project_type" name="project_type" required>
@@ -46,4 +46,38 @@
 			</div>
 		</div>
 	</article>
+
+	<script>
+		(() => {
+			const form = document.querySelector('form[name="contact"]');
+			const phone = form && form.elements.phone;
+			if (!form || !phone) return;
+
+			const phonePattern = /^(?:\+?1[ .-]?)?(?:\([2-9][0-9]{2}\)|[2-9][0-9]{2})[ .-]?[0-9]{3}[ .-]?[0-9]{4}$/;
+
+			const validatePhone = () => {
+				const value = phone.value.trim();
+				let message = '';
+
+				if (!value) {
+					message = 'Please enter your phone number.';
+				} else if (!phonePattern.test(value)) {
+					message = 'Enter a valid 10-digit U.S. phone number, such as 573-230-2241.';
+				}
+
+				phone.setCustomValidity(message);
+				return !message;
+			};
+
+			phone.addEventListener('input', () => phone.setCustomValidity(''));
+			phone.addEventListener('invalid', validatePhone);
+			form.addEventListener('submit', (event) => {
+				if (!validatePhone()) {
+					event.preventDefault();
+					phone.reportValidity();
+					phone.focus();
+				}
+			});
+		})();
+	</script>
 {{ end }}
