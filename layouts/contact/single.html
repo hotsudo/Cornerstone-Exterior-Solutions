@@ -23,13 +23,13 @@
 					<input id="name" type="text" name="name" autocomplete="name" required>
 
 					<label for="email_address">Email Address</label>
-					<input id="email_address" type="email" name="email" autocomplete="email" required>
+					<input id="email_address" type="email" name="email" autocomplete="email" inputmode="email" required>
 
 					<label for="phone">Phone Number</label>
-					<input id="phone" type="tel" name="phone" autocomplete="tel">
+					<input id="phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" pattern="(?:\+?1[ .-]?)?(?:\([2-9][0-9]{2}\)|[2-9][0-9]{2})[ .-]?[0-9]{3}[ .-]?[0-9]{4}" title="Enter a valid 10-digit U.S. phone number, such as 573-230-2241." required>
 
 					<label for="project_type">Project Type</label>
-					<select id="project_type" name="project_type">
+					<select id="project_type" name="project_type" required>
 						<option value="">Select a service</option>
 						<option>Roofing</option>
 						<option>Gutters</option>
