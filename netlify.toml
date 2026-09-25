@@ -14,6 +14,31 @@
     X-Frame-Options = "SAMEORIGIN"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
+# Keep old links working after the domain move, including paths and query strings.
+[[redirects]]
+  from = "https://cornerstoneexteriorsolutions.co/*"
+  to = "https://cornerstonecrewmo.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://cornerstoneexteriorsolutions.co/*"
+  to = "https://cornerstonecrewmo.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.cornerstoneexteriorsolutions.co/*"
+  to = "https://cornerstonecrewmo.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.cornerstoneexteriorsolutions.co/*"
+  to = "https://cornerstonecrewmo.com/:splat"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/contact-success"
   to = "/contact-success/"
