@@ -19,11 +19,13 @@ We provide roof inspections, repairs, and replacement solutions for aging materi
 
 Properly functioning gutters help prevent water damage. We install and replace gutter systems that direct water safely away from your home.
 
-Additionally, we provide a thorough leaf removal service that will make your yard look amazing in the autumn and in the spring when the snow melts away.
+Fall cleanups start at **$225** and include leaf cleanup in the agreed lawn and landscape areas, collection of small fallen sticks, blowing off driveways and walkways, and haul-away of the collected debris. Your final price depends on the size of the area, leaf volume, and access. We confirm the scope and price before work begins.
 
 ### Christmas Lighting
 
-We set up, take down, and store Christmas lighting and decor for anyone and everyone! Give us a call or email us this autumn to get a free quote to brighten your home or business this winter!
+Seasonal Christmas light packages start at **$650** for simple, accessible rooflines. Packages include use of Cornerstone's lights, installation, and January removal. Cornerstone retains ownership of the lights. Your final quote depends on roofline length, height, and design.
+
+Send us a photo of your home, your location, and the look you have in mind for a free estimate. We are based in Linn and serve Loose Creek, Westphalia, and nearby communities.
 
 ### Exterior Repairs and Improvements
 
@@ -31,4 +33,4 @@ Have a project that does not fit neatly into one category? Tell us what you are 
 
 ## Start with a free estimate
 
-Call [573-230-2241](tel:+15732302241), email [info@cornerstoneexteriorsolutions.co](mailto:info@cornerstoneexteriorsolutions.co), or [send us a message](/contact/).
+Call or text [573-230-2241](tel:+15732302241), email [caleb@cornerstonecrewmo.com](mailto:caleb@cornerstonecrewmo.com), or [send us a message](/contact/).

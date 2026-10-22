@@ -14,7 +14,7 @@ Run `hugo --gc --minify`. The generated site is written to `public/`.
 
 The repository includes `netlify.toml` with the production build command, publish directory, Hugo version, security headers, and contact-success redirect.
 
-The contact page uses Netlify Forms with a honeypot field. After the first deploy, confirm that the `contact` form appears in Netlify and add an email notification for `info@cornerstoneexteriorsolutions.co` under the site’s form notification settings.
+The contact page uses Netlify Forms with a honeypot field. After the first deploy, confirm that the `contact` form appears in Netlify and add an email notification for `caleb@cornerstonecrewmo.com` under the site’s form notification settings.
 
 ## Site content
 

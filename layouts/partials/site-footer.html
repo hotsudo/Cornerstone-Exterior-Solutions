@@ -37,7 +37,7 @@
 					<h2>{{ hugo.Data.company.title }}</h2>
 				</li>
 				<li>{{ hugo.Data.company.description }}</li>
-				<li><a href="tel:+18168250512">{{ hugo.Data.company.phone }}</a></li>
+				<li><a href="tel:+1{{ replaceRE `[^0-9]` `` hugo.Data.company.phone }}">{{ hugo.Data.company.phone }}</a></li>
 				<li><a href="mailto:{{ hugo.Data.company.contact_email_address }}">{{ hugo.Data.company.contact_email_address }}</a></li>
 			</ul>
 		</div>
