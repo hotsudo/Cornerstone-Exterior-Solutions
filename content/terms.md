@@ -11,4 +11,4 @@ The information on this website is provided for general informational purposes. 
 
 Any estimate, scope of work, warranty, payment schedule, or other project-specific commitment will be described in a separate written agreement. Website content may be updated without notice.
 
-Questions about these terms may be sent to [info@cornerstoneexteriorsolutions.co](mailto:info@cornerstoneexteriorsolutions.co).
+Questions about these terms may be sent to [caleb@cornerstonecrewmo.com](mailto:caleb@cornerstonecrewmo.com).

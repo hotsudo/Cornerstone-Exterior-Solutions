@@ -1,52 +1,14 @@
-<footer>
-	<div class="container">
-		<p class="editor-link"><a href="cloudcannon:collections/data/company.yml" class="btn"><strong>&#9998;</strong> Update Company Details</a></p>
-
-		<div class="footer-columns">
-			{{ if .Site.Menus.footer }}
-				<ul class="footer-links">
-					<li>
-						<h2>Pages</h2>
-					</li>
-					{{ range .Site.Menus.footer }}
-						<li>
-							<a href="{{ .URL }}" title="{{ .Name }} page">{{ .Name }}</a>
-						</li>
-					{{ end }}
-				</ul>
-			{{ end }}
-
-			{{ with hugo.Data.company.social_links }}
-			<ul class="footer-links">
-				<li>
-					<h2>Social</h2>
-				</li>
-				{{ range hugo.Data.company.social_links }}
-					<li>
-						<a target="_blank" rel="noopener" href="{{ .link }}" class="{{ .name | urlize }}-icon">
-							{{ partial "social-icon.html" . }}
-							{{ .name }}
-						</a>
-					</li>
-				{{ end }}
-			</ul>
-			{{ end }}
-
-			<ul class="footer-links">
-				<li>
-					<h2>{{ hugo.Data.company.title }}</h2>
-				</li>
-				<li>{{ hugo.Data.company.description }}</li>
-				<li><a href="tel:+1{{ replaceRE `[^0-9]` `` hugo.Data.company.phone }}">{{ hugo.Data.company.phone }}</a></li>
-				<li><a href="mailto:{{ hugo.Data.company.contact_email_address }}">{{ hugo.Data.company.contact_email_address }}</a></li>
-			</ul>
-		</div>
-	</div>
-
-	<div class="legal-line">
-		<p class="container">
-			&copy; {{ now.Format "2006" }} {{ hugo.Data.company.title }} &bull;
-			<a href="/terms/">Terms</a>
-		</p>
-	</div>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <p class="footer-name">{{ hugo.Data.company.title }}</p>
+      <p>{{ hugo.Data.company.description }}<br>Linn · Loose Creek · Westphalia &amp; nearby</p>
+    </div>
+    <div class="footer-contact">
+      <a href="tel:+1{{ replaceRE `[^0-9]` `` hugo.Data.company.phone }}">{{ hugo.Data.company.phone }}</a>
+      <a href="mailto:{{ hugo.Data.company.contact_email_address }}">{{ hugo.Data.company.contact_email_address }}</a>
+      {{ range hugo.Data.company.social_links }}<a href="{{ .link }}">{{ .name }}</a>{{ end }}
+    </div>
+  </div>
+  <div class="container legal-line">&copy; {{ now.Format "2006" }} Cornerstone Exterior Solutions · <a href="/terms/">Terms</a></div>
 </footer>

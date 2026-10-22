@@ -1,13 +1,15 @@
 ---
-title: Contact
-call_to_action: Contact
+title: Get a free estimate
+description: Call or text Caleb at 573-230-2241 for fall cleanup and Christmas lights in Linn, Loose Creek, Westphalia, and nearby communities.
+call_to_action: None
 large_header: false
 type: contact
 menu:
   main:
+    name: Contact
     weight: 3
   footer:
     weight: 4
 ---
 
-Tell us about your exterior project and we’ll follow up to discuss your needs and next steps. Estimates are free, and there is no obligation.
+Tell us your town and what you’d like help with. Caleb will follow up to talk through the work, price, and timing. Estimates are free, with no obligation.

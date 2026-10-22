@@ -9,7 +9,6 @@
 		<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 		{{ hugo.Generator }}
 
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento|Vollkorn:400,400i,700,700i">
 		<link rel="icon" type="image/png" href="/images/favicon.png?v=2">
 
 		{{ $sass := resources.Get "sass/main.scss" }}
@@ -36,12 +35,12 @@
 	<body>
 		{{ block "header" . }}{{ partial "site-header.html" . }}{{ end }}
 
-		<section class="main">
+		<main id="main-content" class="main{{ if .IsHome }} home-main{{ end }}">
 			<div class="container">
 				{{ block "page-header" . }}{{ partial "page-header.html" . }}{{ end }}
 				{{ block "main" . }}{{ end }}
 			</div>
-		</section>
+		</main>
 
 		{{ if (and (eq .Params.call_to_action "Map") (isset .Site.Params "google_maps_javascript_api_key")) }}
 			<section class="map-section">
@@ -49,15 +48,10 @@
 			</section>
 		{{ else if eq .Params.call_to_action "Contact" }}
 			<section class="quote-section">
-				<p class="container editable">
-					Ready to improve your home? <a href="/contact/">Request a free estimate</a> today.
-				</p>
-			</section>
-		{{ else }}
-			<section class="quote-section">
-				<p class="container editable">
-					Have an exterior project in mind? <a href="/contact/">Tell us about it</a> and we’ll help you plan the next step.
-				</p>
+				<div class="container quote-inner">
+					<div><h2>Let’s get it off your list.</h2><p>Send a few details. We’ll talk through the job and give you a price.</p></div>
+					<a class="button" href="/contact/">Get a free estimate</a>
+				</div>
 			</section>
 		{{ end }}
 

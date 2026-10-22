@@ -1,42 +1,17 @@
-{{ $headerImages := .Site.Params.headerImages | default (slice .Site.Params.backgroundImagePath) }}
-<header class="{{ if .Params.large_header }}main-hero{{ end }}" data-header-slideshow>
-	<div class="header-slideshow" aria-hidden="true">
-		{{ range $index, $image := $headerImages }}
-			<div class="header-slide{{ if eq $index 0 }} is-active{{ end }}" style="background-image: url('{{ $image | relURL }}');"></div>
-		{{ end }}
-	</div>
-
-	<div class="container">
-		<h1><a href="/">{{ hugo.Data.company.title }}</a></h1>
-		<nav aria-label="Main navigation">
-			{{ if .Site.Menus.main }}
-				<ul>
-					{{ $currentPage := . }}
-					{{ range .Site.Menus.main }}
-						<li>
-							<a href="{{ .URL }}" title="{{ .Name }} page" class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a>
-						</li>
-					{{ end }}
-				</ul>
-			{{ end }}
-		</nav>
-	</div>
-
-	{{ if gt (len $headerImages) 1 }}
-	<script>
-		(() => {
-			const header = document.currentScript.closest('[data-header-slideshow]');
-			const slides = header ? Array.from(header.querySelectorAll('.header-slide')) : [];
-			if (slides.length < 2 || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-
-			let current = 0;
-			window.setInterval(() => {
-				if (document.hidden) return;
-				slides[current].classList.remove('is-active');
-				current = (current + 1) % slides.length;
-				slides[current].classList.add('is-active');
-			}, 3000);
-		})();
-	</script>
-	{{ end }}
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="Cornerstone Exterior Solutions home">
+      <span class="brand-name">Cornerstone</span>
+      <span class="brand-detail">Exterior Solutions</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <ul>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL }}"{{ if $currentPage.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
 </header>

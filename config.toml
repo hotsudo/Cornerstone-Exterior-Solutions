@@ -18,14 +18,8 @@ enableRobotsTXT = true
   posts = ":section/:year/:month/:day/:title/"
 
 [params]
-  backgroundImagePath = "/uploads/building.jpg"
-  headerImages = [
-    "/uploads/building.jpg",
-    "/images/Pacific_roof2.jpg",
-    "/images/Yutzy_plaza1.jpg"
-  ]
-  description = "Exterior remodeling and repair services for homeowners in the Kansas City area."
-  images = ["siteicon.png"]
+  description = "A small local crew in Linn, Missouri. Fall cleanup from $225 and Christmas lights from $650, serving Linn, Loose Creek, Westphalia, and nearby communities."
+  images = ["images/Thomas_Christmas_lights.jpg"]
   title = "Cornerstone Exterior Solutions"
 
 [params._selectData]

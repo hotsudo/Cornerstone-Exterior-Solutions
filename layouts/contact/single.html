@@ -1,21 +1,23 @@
 {{ define "main" }}
-	<article class="content">
+	<article class="content contact-content">
 		<div>{{ .Content }}</div>
 
 		<div class="columns">
-			<div class="column">
-				<label>Phone Number</label>
-				<p class="contact-info"><a href="tel:+15732302241">{{ hugo.Data.company.phone }}</a></p>
+			<div class="column contact-details">
+				<h2>Call or text Caleb</h2>
+				<p class="contact-info"><a href="tel:+15732302241">{{ hugo.Data.company.phone }}</a><br><a href="sms:+15732302241">Send a text</a></p>
 
-				<label>Email Address</label>
+				<h2>Email</h2>
 				<p class="contact-info"><a href="mailto:{{ hugo.Data.company.contact_email_address }}">{{ hugo.Data.company.contact_email_address }}</a></p>
 
-				<label>Service Area</label>
+				<h2>Where we work</h2>
 				<p class="contact-info">{{ hugo.Data.company.service_area }}</p>
+				<p class="small-note">Photos help us quote your job. Send them by text or through <a href="https://www.facebook.com/CornerstoneCrewMO">our Facebook page</a>, and include your name and town.</p>
 			</div>
 
 			<div class="column">
 				<form name="contact" method="post" action="/contact-success/" data-netlify="true" netlify-honeypot="bot-field">
+					<p class="small-note">All fields are required.</p>
 					<input type="hidden" name="form-name" value="contact">
 					<p class="form-hidden"><label>Do not fill this out if you are human: <input name="bot-field"></label></p>
 
@@ -28,18 +30,18 @@
 					<label for="phone">Phone Number</label>
 					<input id="phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" pattern="(?:\+?1[ .-]?)?(?:\([2-9][0-9]{2}\)|[2-9][0-9]{2})[ .-]?[0-9]{3}[ .-]?[0-9]{4}" title="Enter a valid 10-digit U.S. phone number, such as 573-230-2241." required="required" aria-required="true">
 
-					<label for="project_type">Project Type</label>
+					<label for="project_type">What can we help with?</label>
 					<select id="project_type" name="project_type" required>
 						<option value="">Select a service</option>
+						<option value="Leaf Removal">Fall cleanup</option>
+						<option value="Christmas Lighting">Christmas lights</option>
 						<option>Roofing</option>
 						<option>Gutters</option>
-						<option>Leaf Removal</option>
-						<option>Christmas Lighting</option>
 						<option>Other exterior project</option>
 					</select>
 
-					<label for="message">Message</label>
-					<textarea id="message" name="message" required></textarea>
+					<label for="message">Your town and a little about the job</label>
+					<textarea id="message" name="message" placeholder="Where are you located, what needs doing, and when would you like it done?" required></textarea>
 
 					<input type="submit" value="Request Free Estimate">
 				</form>
