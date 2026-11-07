@@ -14,6 +14,13 @@
     X-Frame-Options = "SAMEORIGIN"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
+# Public OAuth notices, intentionally absent from customer navigation and sitemaps.
+[[headers]]
+  for = "/app-info/channel-analytics/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, noarchive"
+    Referrer-Policy = "no-referrer"
+
 # Keep old links working after the domain move, including paths and query strings.
 [[redirects]]
   from = "https://cornerstoneexteriorsolutions.co/*"
