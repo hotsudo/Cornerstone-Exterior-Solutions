@@ -1,40 +1,34 @@
 ---
-title: How we can help
-description: Fall cleanup from $225 and Christmas light packages from $650 in Linn, Loose Creek, Westphalia, and nearby Missouri communities.
+title: Services
 call_to_action: Contact
+large_header: false
 menu:
   main:
-    name: Services
-    weight: 1
+    weight: 2
+  footer:
+    weight: 3
 ---
 
-We’re starting with two seasonal services for neighbors around Linn. Tell us what you need, and we’ll confirm the work and price before you book.
+Your home or business’s exterior works as a system. We help identify the right solution for the problem at hand and complete the work with long-term protection, performance, and curb appeal in mind.
 
-## Fall cleanup {#fall-cleanup}
+### Roofing
 
-**Starting at $225 for one cleanup visit.**
+We provide roof inspections, repairs, and replacement solutions for aging materials, storm damage, leaks, and other common roofing concerns. (Roof evaluations are free and have no obligation attached.)
 
-- Leaf cleanup in the agreed lawn and landscape areas
-- Collection of small fallen sticks
-- Blowing off driveways and walkways
-- Haul-away of the debris we collect
+### Gutters and Leaf Removal
 
-Your quote depends on the size of the area, leaf volume, and access. Send your town and a few photos of the areas you’d like cleaned up. If more leaves fall later, we can quote a return visit separately.
+Properly functioning gutters help prevent water damage. We install and replace gutter systems that direct water safely away from your home.
 
-## Christmas lights {#christmas-lights}
+Additionally, we provide a thorough leaf removal service that will make your yard look amazing in the autumn and in the spring when the snow melts away.
 
-**Seasonal packages starting at $650 for simple, accessible rooflines.**
+### Christmas Lighting
 
-- Use of Cornerstone’s Christmas lights for the season
-- Installation along the agreed roofline
-- Removal in January
+We set up, take down, and store Christmas lighting and decor for anyone and everyone! Give us a call or email us this autumn to get a free quote to brighten your home or business this winter!
 
-Cornerstone retains ownership of the lights. Your quote depends on roofline length, height, and the design you choose. Send a photo of the front of your home, your town, and the look you have in mind. We’ll confirm the scope and timing with you before booking.
+### Exterior Repairs and Improvements
 
-## Other exterior work
+Have a project that does not fit neatly into one category? Tell us what you are seeing. We can discuss the issue, determine whether it falls within our services, and recommend the next step.
 
-Need help with roofing, gutters, or another exterior repair? [Ask us about your project](/contact/). We’ll let you know whether it’s a job we can take on.
+## Start with a free estimate
 
-## Getting an estimate is simple
-
-Call [573-230-2241](tel:+15732302241), [text Caleb](sms:+15732302241), or [use our contact form](/contact/). You can send photos by text or through [our Facebook page](https://www.facebook.com/CornerstoneCrewMO). Estimates are free, with no obligation.
+Call [573-230-2241](tel:+15732302241), email [info@cornerstoneexteriorsolutions.co](mailto:info@cornerstoneexteriorsolutions.co), or [send us a message](/contact/).

@@ -1,18 +1,17 @@
 ---
-title: A little about Cornerstone
-description: Meet Caleb and Cornerstone, a small local crew based in Linn, Missouri, helping with fall cleanup and Christmas lights.
+title: About
 call_to_action: Contact
+large_header: false
 type: about
 menu:
   main:
-    name: About
+    weight: 1
+  footer:
     weight: 2
 ---
 
-I’m Caleb, the owner of Cornerstone Exterior Solutions. We’re based in Linn, Missouri, and work around Linn, Loose Creek, Westphalia, and nearby communities.
+Cornerstone Exterior Solutions is a local exterior-improvement company serving homeowners throughout Mid-Missouri and beyond.
 
-Right now, we’re focused on fall cleanup and Christmas lights. I handle estimates and scheduling and work alongside the crew. When you reach out, you’ll have someone who knows the details of your job.
+We believe a successful project starts with listening. We take time to understand your goals, explain the available options, and recommend a practical path forward for your home and budget. Throughout the project, you can expect clear communication, respect for your property, and close attention to the details that protect your investment.
 
-We keep it simple: talk through what you need, agree on the scope and price, and take care of your property while we work. If something changes, we’ll discuss it with you first.
-
-Have a yard full of leaves or a roofline you’d like lit up? [Tell us about it](/contact/).
+Whether you need a targeted repair, decor, or a larger exterior update, our goal is simple: deliver dependable work and an experience you will feel good about recommending.
